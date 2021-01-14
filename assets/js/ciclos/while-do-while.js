@@ -4,9 +4,9 @@ let i = 0;
 
 while (i < carros.length) {
 
-    if (i===2) {
-
-        break;
+    if (i===1) {
+        i++;
+        continue;
     }
  
     console.log (carros[i]);
@@ -16,3 +16,13 @@ while (i < carros.length) {
 // undefined
 // null 
 // false
+
+console.warn('Do while');
+
+let j = 1;
+
+do {
+    console.log(carros[j]);
+    j++;
+
+} while (carros[j]);
